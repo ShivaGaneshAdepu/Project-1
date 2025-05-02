@@ -14,7 +14,7 @@ Features string-based number representation for precision.
 
 Includes MyInfArith for command-line use and a Python script for compilation.
 
-Tested with unit tests, edge cases, and Docker.
+Tested with unit tests, edge cases
 
 Limitations: slower performance, 30-decimal cap, basic error handling.
 
