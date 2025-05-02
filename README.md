@@ -1,18 +1,23 @@
-## Getting Started
+Arbitrary Precision Arithmetic Library:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Built for CS1023 course (Jan-May 2025) by Shiva Ganesh Adepu (CS24BTECH11003).
 
-## Folder Structure
+Java library for arbitrary precision arithmetic in arbitraryarithmetic package.
 
-The workspace contains two folders by default, where:
+Uses AInteger for integers and AFloat for floating-point numbers.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Supports addition, subtraction, multiplication, division with no round-off errors.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Caps floating-point results at 30 decimal places.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Features string-based number representation for precision.
 
-## Dependency Management
+Includes MyInfArith for command-line use and a Python script for compilation.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Tested with unit tests, edge cases, and Docker.
+
+Limitations: slower performance, 30-decimal cap, basic error handling.
+
+Learned about precision arithmetic, Java constraints, and Git for project management.
+
+Full details in report.tex.
