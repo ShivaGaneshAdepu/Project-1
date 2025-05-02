@@ -1,6 +1,3 @@
-import arbitraryarithmetic.AFloat;
-import arbitraryarithmetic.AInteger;
-
 public class MyInfArith {
 
     public static void main(String[] args) {
@@ -17,9 +14,9 @@ public class MyInfArith {
         try {
             switch (type) {
                 case "float":
-                    AFloat a = new AFloat(num1);
-                    AFloat b = new AFloat(num2);
-                    AFloat floatResult = null;
+                    arbitraryarithmetic.AFloat a = new arbitraryarithmetic.AFloat(num1);
+                    arbitraryarithmetic.AFloat b = new arbitraryarithmetic.AFloat(num2);
+                    arbitraryarithmetic.AFloat floatResult = null;
 
                     switch (operation) {
                         case "add":
@@ -44,21 +41,21 @@ public class MyInfArith {
 
                 case "int":
                 case "integer":
-                    AInteger x = new AInteger(num1);
-                    AInteger y = new AInteger(num2);
-                    AInteger intResult = null;
+                    arbitraryarithmetic.AInteger x = new arbitraryarithmetic.AInteger(num1);
+                    arbitraryarithmetic.AInteger y = new arbitraryarithmetic.AInteger(num2);
+                    arbitraryarithmetic.AInteger intResult = null;
 
                     switch (operation) {
                         case "add":
                             intResult = x.add(y);
                             break;
-                        case "subtract":
+                        case "sub":
                             intResult = x.subtract(y);
                             break;
-                        case "multiply":
+                        case "mul":
                             intResult = x.multiply(y);
                             break;
-                        case "divide":
+                        case "div":
                             intResult = x.divide(y);
                             break;
                         default:
